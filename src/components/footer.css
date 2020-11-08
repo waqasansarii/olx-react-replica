@@ -1,0 +1,93 @@
+.main_footer_div{
+    /* border: 2px solid; */
+    /* border-top: rgb(122, 122, 122); */
+    background-color: #ebeeef;
+    margin-top: 30px;
+    /* position: absolute; */
+    /* bottom: 0px; */
+    /* left: 10px; */
+}
+.sub_footer_div{
+    /* border: solid 2px; */
+    width: 1250px;
+   margin: 0 auto;
+   margin-top: 30px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+    /* margin-left: 50px; */
+    /* height: 150px; */
+    color: #002f34;
+    /* background-color: #ebeeef; */
+}
+.firstRow{
+    /* border: solid 2px; */
+    width: 150px;
+    /* height: 90px; */
+    padding: 20px;
+}
+.footer_link{
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+}
+.footer_ul_one{
+    list-style: none;
+    margin-top: 10px;
+    /* border: 2px solid; */
+}
+.footer_li_one{
+    /* margin-top:5px; */
+    /* padding: 2px; */
+}
+.footer_link{
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+    font-size: 0.7em;
+}
+.footer_social{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+.playStore_btn_div{
+    border:2px solid;
+    margin-top:20px
+}
+.copyright{
+    background-color: #002f34;
+
+}
+
+.copy_right_div{
+    border: 2px ridge solid;
+    height: 50px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+
+}
+.copyright_link{
+    text-decoration: none;
+    color: white;
+    margin-left: 5px;
+    margin-top: 15px;
+    font-size: 0.8em;
+
+}
+.copy_right_div>div>p{
+    color: white;
+    /* margin-left: 30px; */
+    margin-top: 15px;
+    font-size: 0.8em;
+}
+.copy_right_div>div{
+    /* margin-left: 60px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+

@@ -1,0 +1,247 @@
+
+.sub_card_div{
+    background-color: rgba(215, 226, 236, 0.74);
+    border: 2px solid;
+    /* width: 70%; */
+    width: 1200px;
+    height: 330px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.head_div{
+   display:flex;
+   flex-direction : row;
+   justify-content: space-between;
+}
+/* .moree{
+    border:2px solid;
+} */
+.card_div{
+    /* background-color: rgb(244, 247, 244); */
+    /* border: 2px solid; */
+   max-height: 270px;
+    margin: 30px;
+    display:flex;
+    overflow-x: auto;
+}
+.card_div::-webkit-scrollbar{
+    width: 5px;
+    
+}
+.state_card_div{
+    background-color: rgb(244, 247, 244);
+
+    /* border: 2px solid rgb(235, 222, 222); */
+    margin: 7px !important;
+    border-radius: 10px;
+    width: 265px;
+    /* text-align: center; */
+    margin: 2px;
+    box-shadow:  0px 0px 5px ;
+}
+.card_img_div{
+    /* border: 2px solid; */
+    height: 150px;
+    width: fit-content;
+    margin: 0 auto;
+
+}
+.card_img{
+    width: 200px;
+    height: 150px;
+    margin-top: 5px;
+}
+.card_price_div{
+    /* border: 2px solid; */
+    margin-top: 15px;
+    margin-left: 8px;
+}
+.card_price_div>p{
+    width: fit-content;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.card_para_div{
+    /* border:  2px solid; */
+    margin-top: 10px ;
+    
+}
+.card_para_div>p{
+    color: rgb(97, 96, 96);
+    margin-left: 15px;
+}
+/* .next_btn_div{
+    border: 2px solid;
+    width: 100px;
+
+} */
+.sub_next_btn_div{
+    /* border: 2px solid; */
+    margin-top: 70px;
+    height: 75px;
+    background-color: rgb(238, 241, 238);
+    position: absolute;
+    right: 85px;
+    bottom: 10px;
+    box-shadow: 0px 6px 10px gray;
+}
+.nextBtn{
+    /* border: 2px solid; */
+    margin-top: 25px;
+    height: 70px;
+    
+}
+.card_link{
+    text-decoration: none;
+    color: black;
+}
+ 
+
+       /* FRESH CARDS STYLIND */
+
+
+.freshCard_header_div{
+    /* border: 2px solid; */
+    margin-top: 25px ;
+    margin-left: 60px;
+    width: 1100px ;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.freshCard_div{
+    /* border: 2px solid; */
+
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ justify-content: space-around;
+ margin: 0 auto;
+ width: 1100px;
+ margin-top: 15px;
+ 
+
+}
+.sub_freshCard_div{
+    border: 2px solid lightgray;
+    width: 260px;
+    margin-top: 20px;
+    height: 220px;
+    border-radius: 5px;
+    
+    
+}
+
+.heart_icon{
+    /* border: solid 2px; */
+    margin-bottom: 120px;
+    margin-left: 15px;
+}
+.link{
+    text-decoration: none;
+    color: black;
+}
+.carousel{
+ width: 650px !important;
+ height: 400px;
+ /* z-index: 1 !important; */
+ margin-left: 70px!important;
+ margin-top: 30px !important;
+ /* border: 1px solid !important; */
+ box-shadow: 3px 1px 4px ;
+}
+.main_details_div{
+    border:  2px solid grey;
+    margin-top: 10px;
+    width: 650px;
+    margin-left: 70px;
+    height: 200px;
+    box-shadow: 2px 1px 2px ;
+    border-radius: 5px;
+
+}
+.main_details_div>h4{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.details_div{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin: 10px;
+    
+}
+/* .details_div>p{
+  margin:5px auto;
+} */
+.state_get_name{
+    font-weight: bold;
+    margin: 0 auto;
+}
+.state_description{
+    width: fit-content;
+    margin: 5px;
+    margin-top: 20px;
+}
+.description_div>h2{
+    margin-top: 15px ;
+    margin-left: 10px;
+
+}
+
+.sub_chosing_product_div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.Rs_and_detail_div{
+    border: 1px solid grey;
+    border-radius: 5px;
+    height: 80px;
+}
+.seller_description_div{
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-top: 10px;
+    height: 150px;
+}
+.seller_description_div>h3{
+   margin-top: 10px;
+   margin-left: 15px;
+}
+.user_img_or_name_div{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: safe;
+}
+.seller_img{
+    border-radius: 20px;
+    margin: 10px;
+}
+.seller_name{
+    border: 2px solid;
+    margin: 20px;
+}
+.chat_with_saller_btn{
+    width: 350px;
+    margin-left: 45px;
+    margin-top: 10px;
+    height: 30px;
+    border: none;
+    outline: none;
+    background-color: rgb(18, 29, 18);
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.chat_with_saller_btn:hover{
+    background-color: white;
+    color: rgb(15, 29, 15);
+    border: 2px solid rgb(21, 32, 17);
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+
+}

@@ -1,0 +1,98 @@
+ 
+   /* filter component styling */
+
+.main_filter_div{
+  /* border: 2px solid; */
+  width: 400px;
+}
+.sub_filter_div>h1{
+ /* margin-top: 5px; */
+ margin-left: 20px;
+}
+.filter_head{
+    /* border: 2px solid; */
+    margin-top: 20px;
+    margin-left: 40px;
+}
+/* .category_menu{
+    border: 2px solid;
+} */
+.sub_category_menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.category_head{
+    margin-left: 25px;
+    margin-top: 15px;
+}
+.category_menu{
+    /* border: 2px solid; */
+    margin-top: 15px;
+
+}
+.more_icon{
+    margin-right: 20px;
+    font-size: xx-large !important;
+    margin-top: 15px;
+
+}
+.filter{
+  /* border: 2px solid; */
+  margin-top: 10px;
+  margin-left: 30px ;
+  cursor: pointer;
+  width: fit-content;
+
+}
+.filter:hover{
+    color: rgb(62, 120, 230);
+}
+.active{
+    color: gray;
+}
+
+ 
+
+
+/* card styling for car and mobile page */
+
+.car_mob_page_div{
+    /* border: 2px solid; */
+    
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ /* justify-content: space-around; */
+ margin: 0 auto;
+ /* width: 1100px; */
+ margin-top: 15px;
+ /* border: 2px solid red; */
+}
+.car_mobile_card_link{
+    text-decoration: none;
+    color: black;
+    /* border: 2px solid; */
+}
+.main_car_mob_div{
+    /* border: 2px solid; */
+    width: 850px;
+    margin-left: 40px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+.sub_car_mob_page_div{
+    border: 2px solid lightgray;
+    width: 260px;
+    margin-top: 20px;
+    height: 220px;
+    border-radius: 5px;
+    margin-left: 10px
+;
+    
+    
+}

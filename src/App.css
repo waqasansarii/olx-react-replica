@@ -1,38 +1,202 @@
-.App {
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* STYLING OF HEADER COMPONENT */
+
+.hide{
+  display: none;
+}
+
+.main_div{
+  position: sticky;
+  top: 0px;
+  z-index: 2;
+  background-color: white;
+  /* border: 2px solid; */
+  height: 80px;
+  box-shadow: 0 1px 4px 0 rgba(0,0,0,.1)
+  
+}
+.second_div{
+  /* border: 2px solid gray ; */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  height: 80px;
+  position: sticky;
+  /* bottom: 30px; */
+  
+  top: 0px;
+}
+
+.olx_logo_div{
+  /* border: 2px solid black; */
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.location_search_div{
+  /* border: 2px solid; */
+  margin-left: 20px;
+  margin-top: 20px;
+
+}
+.search_input{
+  width: 300px;
+  height: 35px;
+}
+.products_search_div{
+  /* border: 2px solid; */
+  margin-left: 10px;
+  margin-top: 20px;
+}
+.products_srch_inp{
+  width: 600px;
+  height: 35px;
+  margin-left: 10px;
+}
+.products_srchBtn_div{
+  /* border: 2px solid red; */
+  margin-top: 20px;
+/* margin-left: 70px; */
+width: 35px;
+background: black;
+height: 41px;
+/* background-color: gray; */
+text-align: center;
+
+}
+.srchIcon{
+  /* border: red 2px solid; */
+width: max-content;
+height: 20px;
+margin: 0 auto;
+margin-top: 5px;
+background-color :black;
+
+}
+.search_img{
+  background-color: black;
+}
+.login_btn_div{
+  margin-top: 20px;
+  margin-left: 50px;
+  /* border: 2px solid; */
+  /* width: 70px; */
+}
+.loginBtn{
+  width: fit-content;
+  height: fit-content;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  margin-top: 10px;
+
+
+}
+.loginBtn:hover{
+  border-bottom: 2px solid;
+}
+.products_sell_btn_div{
+  margin-left: 30px;
+  margin-top: 20px;
+}
+.sellBtn{
+  /* width: 60px; */
+  height: 35px;
+  border: 4px solid;
+  width: 100px;
+  border-radius: 20px;
+  border-left-color: yellow;
+  border-bottom-color: yellow;
+  border-top-color: rgb(57, 190, 214);
+  border-right-color: rgb(30, 110, 214);
+  outline: none;
+  cursor: pointer;
+}
+.Modal{
+  height: 500px;
+  /* top: 50px; */
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 100px;
+
+    border:2px solid;
+    /* background-color:rgb(241, 241, 238); */
+    background-color: white;
+
+}
+.closeBtn{
+  margin-left: 180px !important;
+  margin-top: 10px;
+}
+.closeBtn:hover{
+  cursor: pointer;
+
+}
+.closeBtn_div{
+  /* border:  2px solid; */
+}
+.account_active_btns{
+  width: 300px;
+  height: 40px;
+  border: 1px solid grey;
+  background:none;
+  font-weight: bold;
+  
+  color: black;
+  border-radius:5px ;
+  margin-top: 10px;
+  margin-left: 40px;
+}
+.account_active_btns:hover{
+  cursor: pointer;
+  border: 2px solid;
+}
+.modal_para{
+  margin-top: 20px;
+  border: 2px;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.modal_para>p{
+  font-size: .6em;
+  /* margin: 0 auto; */
+  margin-top: 20px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.user_img{
+  width: 40px;
+  border-radius: 20px;
+  border: 2px;
+  /* padding-left: 15px; */
+  margin-left: 15px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.chat_icon{
+  margin-left: 15px;
+  cursor: pointer;
+}
+.chat_link{
+  text-decoration: none;
+  color: black;
+}
+.log_outBtn{
+  width: 60px;
+  height: 30px;
+  border-radius: 10px;
+  position: absolute;
+  top: 50px;
+  /* right: 20px; */
+  background-color: gray;
+  border: none;
+  outline: none;
   color: white;
-}
+  cursor: pointer;
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.log_out_div{
+  /* border: 2px solid; */
+  margin-top: 20px;
+width: fit-content;
+height: fit-content;
 }
